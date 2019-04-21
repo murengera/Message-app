@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/lock"
+            android:title="Add Message"
+
+            />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/message"
+            android:title="View Message" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/editmessages"
+            android:title="Edit Message" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/change"
+                android:title="Change Password" />
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Change Profile" />
+
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Exit" />
+
+        </menu>
+    </item>
+
+</menu>

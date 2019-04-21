@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#106288"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+
+        android:id="@+id/username"
+        android:layout_width="180sp"
+        android:layout_height="40sp"
+        android:layout_marginStart="130sp"
+        android:layout_marginTop="200sp"
+
+
+
+
+        android:background="#ffffff"
+        android:drawableStart="@drawable/user"
+        android:inputType="text"
+        android:text="@string/username"
+        android:textAlignment="center"
+        android:textColor="#dff048"
+        android:textSize="25sp"
+        android:textStyle="italic|bold" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:drawableStart="@drawable/lockme"
+        android:hint="@string/password"
+
+
+        android:inputType="textPassword"
+
+
+        android:textAlignment="center"
+        android:textColor="#dff048"
+        android:textSize="25sp" />
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+
+        android:text="@string/login"
+        android:textColor="#ff9d24"
+        android:layout_marginStart="180dp"/>
+
+        <Button
+            android:id="@+id/regist"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="170dp"
+
+            android:hint="register"
+            android:textAlignment="center"
+
+
+            android:textColor="#6553ff" />
+
+
+</LinearLayout>
